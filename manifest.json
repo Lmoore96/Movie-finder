@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Streaming Platform Finder",
+  "version": "1.0",
+  "description": "Find out which streaming platform has the movie or TV show you're looking for.",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "https://*.netflix.com/*",
+    "https://*.hulu.com/*",
+    "https://*.amazon.com/*",
+    "https://*.disneyplus.com/*",
+    "https://*.hbomax.com/*",
+    "https://*.paramountplus.com/*",
+    "tabs"
+  ]
+}
